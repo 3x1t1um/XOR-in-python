@@ -44,5 +44,3 @@ Result :
 - os
 - platform
 - itertools
-- base64
-- binascii
