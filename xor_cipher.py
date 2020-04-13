@@ -57,7 +57,7 @@ class cipher():
 				cipher.xored(sys.argv[2],cipher.tostrings(text))
 			
 			else:
-				print('		 \033[31m[ * ] Error argument \033[00m')
+				print('		 \033[31m[ * ] Error Argument \033[00m')
 				cipher.help()
 	
 	def xored(key, data):
@@ -67,11 +67,11 @@ class cipher():
 		for (x,y) in rep:
 			final.append(cipher.compare(format(ord(x),'b').zfill(8), format(ord(y),'b').zfill(8)))
 
-		print('xored (base 2)  :\n'+' '.join(final))
+		print('Xored ( Base 2)  :\n'+' '.join(final))
 		print()
 		
 		if sys.argv[1] == '--decrypt' or sys.argv[1] == '-d':
-			print('xored (ascii) :\n'+cipher.tostrings(final))
+			print('Xored ( ASCII) :\n'+cipher.tostrings(final))
 
 	
 	def compare(target, key):
