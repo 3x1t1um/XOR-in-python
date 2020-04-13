@@ -5,7 +5,6 @@
 ## Table of contents
 * [Exemples](#Exemples)
 * [Requirements](#requirements)
-* [Setup](#setup)
 
 ## Exemples
 
