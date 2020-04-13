@@ -1,2 +1,3 @@
-# XOR_in_python
+## XOR in python
 
+![Screenshot](help.png)
