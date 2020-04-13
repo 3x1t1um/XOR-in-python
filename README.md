@@ -3,10 +3,10 @@
 ![Screenshot](help.png)
 
 ## Table of contents
-* [Exemples](#Exemples)
+* [Exemples](#Examples)
 * [Requirements](#requirements)
 
-## Exemples
+## Examples
 
 Crypt : 
 
